@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    image: dalongrong/rollup-lib:br
+    build: .
+    ports:
+    - "8089:80"

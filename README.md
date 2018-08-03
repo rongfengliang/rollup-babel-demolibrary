@@ -2,7 +2,7 @@
 
 > include jquery && shortid && uglify
 
-## How to Run
+## How to Run(local)
 
 * install deps
 
@@ -20,6 +20,20 @@ yarn build
 
 ```code
 yarn live
+```
+
+## with docekr
+
+* build image
+
+```code
+docker-compose build
+```
+
+* run
+
+```code
+docker-compose up -d
 ```
 
 ## demo images
